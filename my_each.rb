@@ -12,6 +12,6 @@ def my_each(array) # put argument(s) here
   end
 end
 
-my_each(collection) do |number|
+my_each([1, 2, 3, 4]) do |number|
   puts number
 end
