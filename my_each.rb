@@ -8,8 +8,8 @@ def my_each(array) # put argument(s) here
   end
     array
   else
-    puts "No block was given. Please check!"
+    return "No block was given. Please check!"
   end
 end
 
-my_each([1, 2, 3, 4]) { |array| array }
+my_each([1, 2, 3, 4]) { |number| number }
